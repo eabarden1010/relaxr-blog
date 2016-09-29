@@ -1,0 +1,194 @@
+/* Box Model */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  	content: ".";
+  	display: block;
+  	clear: both;
+  	visibility: hidden;
+  	line-height: 0;
+  	height: 0;
+}
+
+body {
+	font-family: "Open Sans", serif;
+	width: 100%;
+	
+
+}
+
+.top {
+	width: 100%;
+	height: 80px;
+	background-color: #033048;
+}
+
+.relaxr {
+	font-size: 48px;
+	font-weight: 800;
+	color: white;
+	float: left;
+	padding-left: 60px;
+}
+
+.middle {
+	background-color: #f0efef;
+	padding-left: 60px;
+	padding-top: 40px;
+	width: 75%;
+	float: left;
+	margin-bottom: 20px;
+	
+}
+	
+.nav-links li {
+	color: #f9e42e;
+	float: right;
+	padding-top: 20px;
+	padding-right: 50px;
+	list-style: none;
+}
+
+img {
+	float: left;
+	width: 100%;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+h2 {
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.middle p {
+	font-size: 22px;
+	font-weight: 300;
+}
+
+a {
+	float: right;
+	font-size: 22px;
+	font-weight: 600;
+	padding-bottom: 50px;
+}
+
+h3 {
+	font-size: 40px;
+	font-weight: 600;
+	padding-top: 30px;
+	border-top: solid;
+	border-width: 2px;
+	clear:both;	
+}
+
+aside {
+	float: left;
+	width: 25%;
+	padding-top: 40px;
+	padding-left: 15px;
+	padding-right: 50px;
+	background-color: #f0efef;
+	height: 1616px;
+}
+
+h4 {
+	font-size: 32px;
+	padding-right: 20px;
+}
+
+h5 {
+	font-size: 32px;
+	padding-top: 20px;
+}
+
+aside li {
+	font-size: 24px;
+	list-style: none;
+}
+
+aside p {
+	font-size: 22px;
+	padding-top: 10px;
+	
+
+}
+
+aside img {
+	padding-top: 50px;
+	padding-right: 30px;
+}
+
+
+.side-about{
+	padding-top: 10px;
+}
+
+.bottom-button {
+	background-color: #f9e42e;
+	padding: 20px;
+
+}
+
+.bottom-button .sign {
+	background-color: #033048;
+	color: white;
+	font-size: 24px;
+	font-weight: 600;
+	padding: 10px;
+	width: 25%;
+	text-align: center;
+	box-sizing: border-box;
+	margin-left: 390px;
+	margin-right: auto;
+	margin-top: 1616px
+
+}
+
+.footer {
+/*section*/
+	width: 100%;
+	background-color: #121212;
+	height: 300px;
+}
+
+.footer .logo {
+	color: #f9e24e;
+	font-size: 48px;
+	font-weight: 800;
+	text-align: center;
+	padding-top: 40px;
+
+}
+
+.footer footer {
+	color: white;
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.media {
+	width: 10%;
+	margin-left: 470px;
+	padding-top: 50px;
+	}
+
+.media .facebook {
+     float: right;
+}
+.media .twitter{ 
+     float: left;
+   
+ }    
+
+
+
+
+
